@@ -1,0 +1,10 @@
+wifi:
+  #电脑的网卡名，一般是en0 ，可通过ifconfig命令找到wifi网卡的名字确认
+  ether: en0
+  #系统密码，因为修改mac地址需要密码
+  password: xxxxxxx
+  #wifi的信号
+  ssid: '  小米共享WiFi_xxxx'
+  # 通过命令生成出来的mac地址，会依据下面的mac地址以此修改本机mac地址
+  mac:
+    - xx:xx:xx:xx:xx:xx
